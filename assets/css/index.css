@@ -1,0 +1,24 @@
+#container {
+    margin-top: 100px;
+}
+
+.form-control:focus {
+    border-color: #b9b9b9;
+    box-shadow: none;
+}
+
+small {
+    font-size: 0.8em;
+}
+
+.btn-check:focus+.btn-dark,
+.btn-dark:focus {
+    box-shadow: none;
+}
+
+#output_info_graph {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
