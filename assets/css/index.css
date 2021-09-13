@@ -2,6 +2,7 @@
     margin-top: 100px;
 }
 
+.form-select:focus,
 .form-control:focus {
     border-color: #b9b9b9;
     box-shadow: none;

@@ -33,34 +33,116 @@
                 <div class="row g-2">
                     <div class="col-9 border-start border-end">
                         <div class="row g-1">
-                            <div class="col-4"><input type="number" class="form-control" id="a00" value="1" /></div>
-                            <div class="col-4"><input type="number" class="form-control" id="a01" value="2" /></div>
-                            <div class="col-4"><input type="number" class="form-control" id="a02" value="1" /></div>
+                            <!-- 0 x 0 -->
+                            <div class="col-1">
+                                <select id="a00s" class="form-select">
+                                    <option value="+">+</option>
+                                    <option value="-">-</option>
+                                </select>
+                            </div>
+                            <div class="col-3">
+                                <input type="text" class="form-control" id="a00" value="1" />
+                            </div>
+                            <!-- 0 x 1 -->
+                            <div class="col-1">
+                                <select id="a01s" class="form-select">
+                                    <option value="+">+</option>
+                                    <option value="-">-</option>
+                                </select>
+                            </div>
+                            <div class="col-3"><input type="text" class="form-control" id="a01" value="2" /></div>
+                            <!-- 0 x 2 -->
+                            <div class="col-1">
+                                <select id="a00s" class="form-select">
+                                    <option value="+">+</option>
+                                    <option value="-">-</option>
+                                </select>
+                            </div>
+                            <div class="col-3"><input type="text" class="form-control" id="a02" value="1" /></div>
                         </div>
                         <div class="row g-1 mt-1">
-                            <div class="col-4"><input type="number" class="form-control" id="a10" value="-1" /></div>
-                            <div class="col-4"><input type="number" class="form-control" id="a11" /></div>
-                            <div class="col-4"><input type="number" class="form-control" id="a12" value="3" /></div>
+                            <!-- 1 x 0 -->
+                            <div class="col-1">
+                                <select id="a10s" class="form-select">
+                                    <option value="+">+</option>
+                                    <option value="-" selected>-</option>
+                                </select>
+                            </div>
+                            <div class="col-3"><input type="text" class="form-control" id="a10" value="1" /></div>
+                            <!-- 1 x 1 -->
+                            <div class="col-1">
+                                <select id="a11s" class="form-select">
+                                    <option value="+">+</option>
+                                    <option value="-">-</option>
+                                </select>
+                            </div>
+                            <div class="col-3"><input type="text" class="form-control" id="a11" /></div>
+                            <!-- 1 x 2 -->
+                            <div class="col-1">
+                                <select id="a12s" class="form-select">
+                                    <option value="+">+</option>
+                                    <option value="-">-</option>
+                                </select>
+                            </div>
+                            <div class="col-3"><input type="text" class="form-control" id="a12" value="3" /></div>
                         </div>
                         <div class="row g-1 mt-1">
-                            <div class="col-4"><input type="number" class="form-control" id="a20" value="1" /></div>
-                            <div class="col-4"><input type="number" class="form-control" id="a21" value="-2" /></div>
-                            <div class="col-4"><input type="number" class="form-control" id="a22" value="1" /></div>
+                            <!-- 2 x 0 -->
+                            <div class="col-1">
+                                <select id="a20s" class="form-select">
+                                    <option value="+">+</option>
+                                    <option value="-">-</option>
+                                </select>
+                            </div>
+                            <div class="col-3"><input type="text" class="form-control" id="a20" value="1" /></div>
+                            <!-- 2 x 1 -->
+                            <div class="col-1">
+                                <select id="a21s" class="form-select">
+                                    <option value="+">+</option>
+                                    <option value="-" selected>-</option>
+                                </select>
+                            </div>
+                            <div class="col-3"><input type="text" class="form-control" id="a21" value="2" /></div>
+                            <!-- 2 x 2 -->
+                            <div class="col-1">
+                                <select id="a22s" class="form-select">
+                                    <option value="+">+</option>
+                                    <option value="-">-</option>
+                                </select>
+                            </div>
+                            <div class="col-3"><input type="text" class="form-control" id="a22" value="1" /></div>
                         </div>
                     </div>
                     <div class="col-3 border-start border-end">
                         <div class="row g-1">
-                            <div class="col-12"><input type="number" class="form-control" id="b00" /></div>
+                            <div class="col-4">
+                                <select id="b00s" class="form-select">
+                                    <option value="+">+</option>
+                                    <option value="-">-</option>
+                                </select>
+                            </div>
+                            <div class="col-8"><input type="text" class="form-control" id="b00" /></div>
                         </div>
                         <div class="row g-1 mt-1">
-                            <div class="col-12"><input type="number" class="form-control" id="b10" value="5" /></div>
+                            <div class="col-4">
+                                <select id="b10s" class="form-select">
+                                    <option value="+">+</option>
+                                    <option value="-">-</option>
+                                </select>
+                            </div>
+                            <div class="col-8"><input type="text" class="form-control" id="b10" value="5" /></div>
                         </div>
                         <div class="row g-1 mt-1">
-                            <div class="col-12"><input type="number" class="form-control" id="b20" value="1" /></div>
+                            <div class="col-4">
+                                <select id="b20s" class="form-select">
+                                    <option value="+">+</option>
+                                    <option value="-">-</option>
+                                </select>
+                            </div>
+                            <div class="col-8"><input type="text" class="form-control" id="b20" value="1" /></div>
                         </div>
                     </div>
                 </div>
-
                 <div class="row g-2 mt-2">
                     <div class="col-12">
                         <button onclick="calc()" class="btn btn-secondary w-100">Calcular</button>
@@ -73,13 +155,12 @@
                 Output
             </div>
             <div class="card-body">
-                <div class="row ">
-
-                </div>
+                <div class="row" id="result"></div>
             </div>
         </div>
     </div>
     <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/jquery.mask.min.js"></script>
     <script src="./assets/js/index.js"></script>
 </body>
 
